@@ -1,6 +1,7 @@
 from django.http import JsonResponse
 from django.conf import settings
 import json
+from django.shortcuts import render
 import requests
 
 

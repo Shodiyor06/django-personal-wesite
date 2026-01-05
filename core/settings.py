@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_BOT_TOKEN = os.getenv("8496052848:AAGnr2LXDp_cfrufY9BK1cmBkkvc3uTFZjk")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
 
@@ -33,7 +33,7 @@ SECRET_KEY = 'django-insecure--zzzcm(mhcru3zhz%&hi5q7=u*w=10n$!s*bp-a9%_ml5z73mo
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [shodi0603.pythonanywhere.com]
 
 
 # Application definition
